@@ -11,10 +11,7 @@
 
 **ACCOUNTS_JSON**（账号列表，JSON 数组）：
 ```json
-[
-  { "email": "your_email@example.com", "cookie": "koa:sess=xxxxx; koa:sess.sig=xxxxx" },
-  { "email": "another@example.com",   "cookie": "koa:sess=xxxxx; koa:sess.sig=xxxxx" }
-]
+[ { "email": "2186195905", "cookie":"koa:sess=eyJ1c2VySWQiOjI2MywiX2V4cGlyZSI6MTgwMjQwMjEzOTE4NiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=_P-bfsNXRnIecJ_iJXFX5Dz19gs" } ]
 ```
 
 Cookie 获取方法：登录 https://railgun.info/ 后，打开浏览器开发者工具 → Application/Storage → Cookies，复制 `koa:sess` 和 `koa:sess.sig` 两项。
